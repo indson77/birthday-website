@@ -1,0 +1,180 @@
+body{
+    background:linear-gradient(
+        135deg,
+        #ff4e9b 0%,
+        #a855f7 40%,
+        #6366f1 70%,
+        #38bdf8 100%
+    );
+    background-attachment:fixed;
+    color:white;
+    min-height:100vh;
+}
+
+.main{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.profile{
+    margin-top:40px;
+    padding:50px 30px;
+    text-align:center;
+    background:rgba(255,255,255,.12);
+    backdrop-filter:blur(15px);
+    border-radius:30px;
+    box-shadow:0 20px 45px rgba(0,0,0,.25);
+}
+
+.profile h1{
+    font-size:clamp(2rem,5vw,4rem);
+    text-shadow:3px 5px 10px rgba(0,0,0,.35);
+}
+
+.img img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:8px solid white;
+    box-shadow:0 15px 40px rgba(0,0,0,.3);
+    transition:.4s;
+}
+
+.img img:hover{
+    transform:scale(1.08) rotate(5deg);
+}
+
+.desc{
+    margin-top:20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:18px;
+}
+
+.desc h3{
+    background:#ff3d81;
+    padding:12px 35px;
+    border-radius:30px;
+}
+
+.desc p{
+    background:#7c3aed;
+    padding:12px 35px;
+    border-radius:30px;
+}
+
+.gift-section{
+    margin-top:80px;
+    text-align:center;
+}
+
+#me{
+    font-size:30px;
+    margin-bottom:18px;
+}
+
+#hover{
+    font-size:20px;
+    color:#ffe8f4;
+    margin-bottom:25px;
+}
+
+.gift,
+.gift2,
+.gift3,
+.gift4,
+.gift5{
+    width:400px;
+    max-width:90%;
+    height:400px;
+    margin:auto;
+    border-radius:25px;
+    border:7px solid white;
+    background-image:url("assets/gift.jpg");
+    background-size:cover;
+    background-position:center;
+    transition:.45s;
+    box-shadow:0 15px 35px rgba(0,0,0,.3);
+}
+
+.gift:hover{
+    transform:translateY(-10px);
+    background-image:url("assets/Birthday Birthday Party Sticker - Birthday Birthday party Bday - Discover & Share GIFs.gif");
+}
+
+.gift2:hover{
+    transform:scale(1.04);
+    background-image:url("assets/download.gif");
+}
+
+.gift3:hover{
+    transform:rotate(2deg);
+    background-image:url("assets/diva STICKER - Find & Share on GIPHY.gif");
+}
+
+.gift4:hover{
+    transform:scale(1.05);
+    background-image:url("assets/download (1).gif");
+}
+
+.gift5:hover{
+    background-image:url("assets/Birthday Cake Bday Sticker - Birthday cake Bday Birthday parties - Descobrir e Compartilhar GIFs.gif");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color:white;
+}
+
+footer{
+    max-width:900px;
+    margin:90px auto 40px;
+    padding:35px;
+    text-align:center;
+    font-size:24px;
+    line-height:1.8;
+    letter-spacing:2px;
+    background:rgba(255,255,255,.15);
+    backdrop-filter:blur(10px);
+    border-radius:25px;
+    box-shadow:0 15px 35px rgba(0,0,0,.2);
+}
+
+@media(max-width:768px){
+    .profile{
+        padding:35px 20px;
+    }
+
+    .profile h1{
+        font-size:34px;
+    }
+
+    .img img{
+        width:150px;
+        height:150px;
+    }
+
+    #me{
+        font-size:24px;
+    }
+
+    #hover{
+        font-size:18px;
+    }
+
+    .gift,
+    .gift2,
+    .gift3,
+    .gift4,
+    .gift5{
+        width:95%;
+        height:320px;
+    }
+
+    footer{
+        font-size:18px;
+        padding:25px;
+    }
+}
