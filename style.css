@@ -93,7 +93,7 @@ body{
     margin:auto;
     border-radius:25px;
     border:7px solid white;
-    background-image:url("assets/gift.jpg");
+    background-image:url("gift.jpg");
     background-size:cover;
     background-position:center;
     transition:.45s;
@@ -102,26 +102,26 @@ body{
 
 .gift:hover{
     transform:translateY(-10px);
-    background-image:url("assets/Birthday Birthday Party Sticker - Birthday Birthday party Bday - Discover & Share GIFs.gif");
+    background-image:url("Birthday Birthday Party Sticker - Birthday Birthday party Bday - Discover & Share GIFs.gif");
 }
 
 .gift2:hover{
     transform:scale(1.04);
-    background-image:url("assets/download.gif");
+    background-image:url("download.gif");
 }
 
 .gift3:hover{
     transform:rotate(2deg);
-    background-image:url("assets/diva STICKER - Find & Share on GIPHY.gif");
+    background-image:url("diva STICKER - Find & Share on GIPHY.gif");
 }
 
 .gift4:hover{
     transform:scale(1.05);
-    background-image:url("assets/download (1).gif");
+    background-image:url("download (1).gif");
 }
 
 .gift5:hover{
-    background-image:url("assets/Birthday Cake Bday Sticker - Birthday cake Bday Birthday parties - Descobrir e Compartilhar GIFs.gif");
+    background-image:url("Birthday Cake Bday Sticker - Birthday cake Bday Birthday parties - Descobrir e Compartilhar GIFs.gif");
     background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
